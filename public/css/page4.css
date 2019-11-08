@@ -1,0 +1,209 @@
+/* start common */
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    direction: rtl;
+}
+/* end common */
+
+/* start navbar */
+.navbar .navbar-nav .nav-link {
+    color: #14a6bd;
+    font-size: 13px;
+    font-weight: 700;
+}
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #065c69;
+}
+.navbar .navbar-nav .email .nav-link {
+    font-weight: normal;
+}
+.navbar .navbar-nav .email .nav-link  i {
+    margin-right: 5px;
+}
+/* end navbar */
+
+/* start header */
+.header4 {
+    background-image: url('../images/header4.png');
+    background-size: cover;
+    background-position: center;
+}
+.header4 .overlay {
+    /* background: rgba(20, 166, 189, .75); */
+    height: 450px;
+    min-height: 250px;
+}
+.header4 .overlay .container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.header4 .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 25px;
+}
+/* end header */
+
+/* start address */
+.address {
+    padding: 50px 0;
+}
+.address .item {
+    min-width: 200px;
+}
+.address .item .text {
+    color: #777;
+    font-size: 20px;
+    padding-top: 10px;
+}
+/* end address */
+
+/* start map */
+.map {
+    width: 100%;
+    height: 40vh;
+    min-height: 300px;
+}
+/* end map */
+
+/* start contact */
+.contact {
+    padding: 50px 0 10px;
+}
+.contact form {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+.contact form h2 {
+    color: #555;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+.contact form div {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.contact form div .input {
+    width: 100%;
+    padding: 5px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #14a6bd;
+}
+.contact form div .input, form div label {
+    position: absolute;
+    font-size: 20px;
+}
+.contact form input[type="submit"] {
+    width: 150px;
+    background: #14a6bd;
+    color: #fff;
+    border-radius: 4px;
+    outline: 0;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 7px;
+}
+.contact form input[type="submit"]:hover {
+    background: #333;
+}
+.contact form i {
+    color: #888;
+}
+.contact form [for="file"] {
+    cursor: pointer;
+}
+/* end contact */
+
+/* start chat */
+.chat {
+    direction: ltr;
+    padding-bottom: 25px;
+}
+.chat-content {
+    max-width: 600px;
+    float: left;
+}
+.chat .row .col {
+    padding: 0;
+}
+.chat .row .col1 {width: 170px; max-width: 170px; padding-top: 10px; padding-left: 10px; text-align: left;}
+.chat .row .col2 {max-width: 40px; text-align: center}
+.chat .row .col3 {max-width: 50px; text-align: center}
+.chat .chat-content .close {
+    color: #aaa;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: left;
+    width: 100%;
+}
+.chat .chat-content .window-title {
+    font-size: 18px;
+    color: #555;
+    font-weight: 700;
+}
+.chat .chat-content .window-title i {
+    color: #14a6bd;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.chat .chat-content .window-title img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* end chat */
+
+/* start footer */
+.footer {
+    background-image: linear-gradient(141deg, #37aec2 0%, #2e9cad 51%, #298a9a 75%);
+    color: #fff;
+    padding: 20px 0;
+}
+.footer a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.footer a:hover {
+    color: #333;
+}
+.footer .col-center {
+    width: 150px;
+    max-width: 150px;
+}
+.footer .links a {
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+@media(max-width: 600px) {
+    .footer .col {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .footer .col-center {
+        padding: 20px 0;
+    }
+}
+/* end footer */

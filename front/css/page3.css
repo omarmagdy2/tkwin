@@ -1,0 +1,146 @@
+/* start common */
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    direction: rtl;
+}
+/* end common */
+
+/* start navbar */
+.navbar .navbar-nav .nav-link {
+    color: #14a6bd;
+    font-size: 13px;
+    font-weight: 700;
+}
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #065c69;
+}
+.navbar .navbar-nav .email .nav-link {
+    font-weight: normal;
+}
+.navbar .navbar-nav .email .nav-link  i {
+    margin-right: 5px;
+}
+/* end navbar */
+
+/* start header */
+.header3 {
+    background-image: url('../images/header3.png');
+    background-size: cover;
+    background-position: center;
+}
+.header3 .overlay {
+    /* background: rgba(20, 166, 189, .75); */
+    height: 450px;
+    min-height: 250px;
+}
+.header3 .overlay .container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.header3 .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 25px;
+}
+/* end header */
+
+/* start team */
+.team {
+    padding: 75px 0;
+}
+.team .title {
+    font-style: italic;
+    color: #555;
+    width: 100%;
+    max-width: 761px;
+    margin: auto;
+    font-size: 17px;
+}
+.team .join-us {
+    background-image: linear-gradient(141deg, #37aec2 0%, #2e9cad 51%, #298a9a 75%);
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    padding: 9px;
+    display: inline-block;
+    margin: 20px 0;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.team .join-us:hover {
+    background: #333;
+}
+.team .item {
+    width: 200px;
+    margin: auto;
+}
+.team .item .image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.team .item .image img {
+    width: 100%;
+}
+.team .item .description h3 {
+    color: #14a6bd;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.team .item .description p {
+    font-size: 16px;
+    color: #777;
+    font-weight: 700;
+}
+/* end team */
+
+/* start footer */
+.footer {
+    background-image: linear-gradient(141deg, #37aec2 0%, #2e9cad 51%, #298a9a 75%);
+    color: #fff;
+    padding: 20px 0;
+}
+.footer a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.footer a:hover {
+    color: #333;
+}
+.footer .col-center {
+    width: 150px;
+    max-width: 150px;
+}
+.footer .links a {
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+@media(max-width: 600px) {
+    .footer .col {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .footer .col-center {
+        padding: 20px 0;
+    }
+}
+/* end footer */

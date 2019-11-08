@@ -1,0 +1,132 @@
+/* start common */
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    direction: rtl;
+    background: #f7f7ff;
+}
+/* end common */
+
+/* start login */
+.login {
+    padding: 50px 0;
+}
+.login .dark-light {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+    background: #fff;
+    position: relative;
+    padding-left: 300px;
+    min-height: 500px;
+}
+.login .dark-light .dark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #f2f0f1;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    padding: 50px;
+    border-right: 1px solid #eee;
+}
+.login .dark-light .dark h3 {
+    color: #777;
+    padding: 20px 0;
+}
+.login .dark-light .dark p {
+    color: #888;
+    padding-bottom: 30px;
+}
+.login .dark-light .dark button {
+    background: none;
+    width: 150px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 25px;
+    padding: 5px 0 7px 0;
+    border: 2px solid rgb(179, 178, 178);
+    color: #888;
+    cursor: pointer;
+}
+.login .dark-light .dark button:hover {
+    background: #aaa;
+    color: #fff;
+    border-color: #aaa;
+}
+.login .dark-light .light .form-login {
+    padding: 50px 15px;
+    max-width: 350px;
+    margin: auto;
+}
+.login .dark-light .light .form-login h2 {
+    font-size: 25px;
+    color: #828282;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.login .dark-light .light .form-login .row {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+}
+.login .dark-light .light .form-login .row .col {
+    padding: 0;
+}
+.login .dark-light .light .form-login .row .col1 {
+    max-width: 50px;
+    background: #fff;
+    border-left: 1px solid #ddd;
+    background: none;
+}
+.login .dark-light .light .form-login .row .col1 i {
+    padding-top: 10px;
+    color: #828282;
+}
+.login .dark-light .light .form-login .row .col2 input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: none;
+    padding: 7px;
+    background: #f2f0f1;
+}
+.login .dark-light .light .form-login p {
+    padding: 15px 0;
+    color: #aaa;
+}
+.login .dark-light .light .form-login .submit {
+    background: #00b09c;
+    width: 120px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 25px;
+    padding: 4px 0 6px 0;
+    border: 2px solid rgb(179, 178, 178);
+    cursor: pointer;
+    color: #fff;
+    border: 2px solid #00b09c;
+    font-weight: bold;
+}
+.login .dark-light .light .form-login .submit:hover {
+    color: #00b09c;
+    background: none;
+}
+@media(max-width: 767px) {
+    .login .dark-light {
+        padding-left: 0;
+    }
+    .login .dark-light .dark {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        width: 100%;
+        padding: 25px 15px;
+    }
+} 
+/* end login */

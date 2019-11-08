@@ -1,0 +1,65 @@
+/* start common */
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    direction: rtl;
+}
+/* end common */
+
+/* start header */
+.header {
+    background: #cde4b0;
+    padding: 25px 0;
+}
+/* start header */
+
+/* start section-form */
+.section-form {
+    padding-bottom: 50px;
+}
+.section-form .header-section-form {
+    background: #515151;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0 15px;
+    margin-bottom: 50px;
+}
+.section-form .body-section-form .row {
+    margin-bottom: 15px;
+}
+.section-form .body-section-form .col1 {
+    max-width: 350px;
+}
+.section-form .body-section-form .lbl {
+    display: block;
+    color: #fff;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.section-form .body-section-form .lbl1 {background: #00d3d4;}
+.section-form .body-section-form .lbl2 {background: #5a9ff6;}
+.section-form .body-section-form .lbl3 {background: #ff6574;}
+.section-form .body-section-form .lbl4 {background: #fea040;}
+.section-form .body-section-form .inpt {
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    outline: 0;
+    border-radius: 7px;
+    width: 100%;
+}
+.section-form .body-section-form .inpt1 {border-color: #00d3d4;}
+.section-form .body-section-form .inpt2 {border-color: #5a9ff6;}
+.section-form .body-section-form .inpt3 {border-color: #ff6574;}
+.section-form .body-section-form .inpt4 {border-color: #fea040;}
+@media(max-width: 991px) {
+    .section-form .body-section-form .col1 {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        padding-bottom: 0 !important;
+    }
+}
+/* end section-form */
